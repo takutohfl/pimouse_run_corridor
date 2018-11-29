@@ -8,3 +8,4 @@ script:
   - source ~/catkin_ws/devel/setup.bash
   - bash -xve ./test/travis_prepare_dummy_files.bash
   - rostest pimouse_run_corridor wall_stop.launch
+  - rostest pimouse_run_corridor wall_stop_accel.launch
